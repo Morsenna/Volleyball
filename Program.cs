@@ -24,14 +24,12 @@ namespace Volleyball
             {
                result = (allGames / 100.00) * 15;
                totalResult = allGames + result;
-
             }
             else if (typeOfYear == "normal")
             {
                totalResult = allGames;
             }
             Console.WriteLine(Math.Truncate(totalResult));
-
         }
     }
 
